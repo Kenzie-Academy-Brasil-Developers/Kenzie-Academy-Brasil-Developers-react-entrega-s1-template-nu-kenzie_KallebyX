@@ -1,0 +1,155 @@
+$color-primary: #fd377e;
+$color-secondary: #E34981;
+$color-grey-0: #f8f9fa;
+$color-grey-50: #868e96;
+$color-grey-100: #212529;
+
+.principalForm {
+    margin-left: 261px;
+    margin-top: 127px;
+    background: #ffffff;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    width: 355px;
+    height: 434px;
+}
+
+.formulario {
+    margin-left: 21px;
+}
+
+.descricao {
+    background: var(--color-grey-0, #f8f9fa);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--color-grey-0, #f8f9fa);
+    border-width: 2px;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 280px;
+    height: 52.8px;
+    color: var(--color-grey-50, #868e96);
+    text-align: left;
+    font: 400 16px/26px "Inter", sans-serif;
+}
+
+.exemplo {
+    color: var(--color-grey-50, #868e96);
+    text-align: left;
+    font: 400 12px/20px "Inter", sans-serif;
+    position: relative;
+}
+
+.titulo {
+    margin-top: 30px;
+    color: var(--color-grey-100, #212529);
+    text-align: left;
+    font: 400 12px/22px "Inter", sans-serif;
+}
+
+.valor {
+    margin-top: 10px;
+    color: var(--color-grey-100, #212529);
+    text-align: left;
+    font: 400 16px/26px "Inter", sans-serif;
+}
+
+.tituloValor {
+    color: var(--color-grey-100, #212529);
+    text-align: left;
+    font: 400 12px/22px "Inter", sans-serif;
+    position: relative;
+}
+
+.valorBox {
+    background: var(--color-grey-0, #f8f9fa);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--color-grey-0, #f8f9fa);
+    border-width: 2px;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 280px;
+    height: 48px;
+    position: relative;
+}
+
+.tipo {
+    margin-top: 10px;
+    color: var(--color-grey-100, #212529);
+    text-align: left;
+    font: 400 16px/26px "Inter", sans-serif;
+}
+
+.tituloTipo {
+    color: var(--color-grey-100, #212529);
+    text-align: left;
+    font: 400 12px/22px "Inter", sans-serif;
+    position: relative;
+}
+
+.seletor {
+    background: var(--color-grey-0, #f8f9fa);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--color-grey-0, #f8f9fa);
+    border-width: 2px;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 313px;
+    height: 48px;
+}
+
+.button {
+    margin-top: 20px;
+    background: var(--color-primary, #fd377e);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--color-primary, #fd377e);
+    border-width: 2px;
+    padding: 13px 20px 13px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 314px;
+    height: 48px;
+    position: relative;
+    color: #ffffff;
+    text-align: left;
+    font: 500 16px "Inter", sans-serif;
+}
+
+.button:hover {
+    margin-top: 20px;
+    background: var(--color-secondary, #E34981);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--color-secondary, #E34981);
+    border-width: 2px;
+    padding: 13px 20px 13px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 314px;
+    height: 48px;
+    position: relative;
+    color: var(--color-grey-100, #E9ECEF);
+    text-align: left;
+    font: 500 16px "Inter", sans-serif;
+}
